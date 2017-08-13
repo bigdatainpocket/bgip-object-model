@@ -1,7 +1,7 @@
 package com.bgip.model;
 
-import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.index.Indexed;
 
 @Document(collection="user")
 public class User extends BaseBean{
@@ -21,7 +21,7 @@ public class User extends BaseBean{
 	
 	private String gender;
 	
-//	@Indexed(unique=true)
+	@Indexed(unique=true)
 	private String email;
 	
 	private boolean terms;

@@ -2,6 +2,7 @@ package com.bgip.model;
 
 import java.io.Serializable;
 import java.util.Date;
+
 import org.springframework.data.annotation.Id;
 
 public class BaseBean implements Serializable{
